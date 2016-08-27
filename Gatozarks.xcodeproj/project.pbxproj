@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		621C53411D707C1C004A965D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53401D707C1C004A965D /* main.m */; };
+		621C53441D707C1C004A965D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53431D707C1C004A965D /* AppDelegate.m */; };
+		621C534A1D707C1C004A965D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621C53481D707C1C004A965D /* Main.storyboard */; };
+		621C534C1D707C1C004A965D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621C534B1D707C1C004A965D /* Assets.xcassets */; };
+		621C534F1D707C1C004A965D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621C534D1D707C1C004A965D /* LaunchScreen.storyboard */; };
+		621C535A1D707C1D004A965D /* GatozarksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53591D707C1D004A965D /* GatozarksUITests.m */; };
+		621C53671D707D1E004A965D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53661D707D1E004A965D /* MainViewController.m */; };
+		621C536A1D707D45004A965D /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53691D707D45004A965D /* NewsViewController.m */; };
+		621C536D1D707D59004A965D /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C536C1D707D59004A965D /* ContactViewController.m */; };
+		621C53701D707D67004A965D /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C536F1D707D67004A965D /* CalendarViewController.m */; };
+		621C53741D707D82004A965D /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53731D707D82004A965D /* CalculatorViewController.m */; };
+		621C53801D707F45004A965D /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 621C53761D707F45004A965D /* icon_back.png */; };
+		621C53811D707F45004A965D /* icon_calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 621C53771D707F45004A965D /* icon_calculator.png */; };
+		621C53821D707F45004A965D /* icon_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 621C53781D707F45004A965D /* icon_calendar.png */; };
+		621C53831D707F45004A965D /* icon_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 621C53791D707F45004A965D /* icon_location.png */; };
+		621C53841D707F45004A965D /* icon_map.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 621C537A1D707F45004A965D /* icon_map.PNG */; };
+		621C53851D707F45004A965D /* icon_news.png in Resources */ = {isa = PBXBuildFile; fileRef = 621C537B1D707F45004A965D /* icon_news.png */; };
+		621C53861D707F45004A965D /* icon_phone.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 621C537C1D707F45004A965D /* icon_phone.PNG */; };
+		621C53871D707F45004A965D /* image_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 621C537D1D707F45004A965D /* image_bg.png */; };
+		621C53881D707F45004A965D /* image_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 621C537E1D707F45004A965D /* image_logo.png */; };
+		621C53891D707F45004A965D /* image_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 621C537F1D707F45004A965D /* image_text.png */; };
+		621C538D1D709EA6004A965D /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C538C1D709EA6004A965D /* ContactTableViewCell.m */; };
+		621C53911D70D5C8004A965D /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53901D70D5C8004A965D /* ContactDetailViewController.m */; };
+		621C53941D70E467004A965D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53931D70E467004A965D /* MapViewController.m */; };
+		621C53961D70E660004A965D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621C53951D70E660004A965D /* MapKit.framework */; };
+		621C53991D7176FF004A965D /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C53981D7176FF004A965D /* NewsTableViewCell.m */; };
+		621C539F1D7186AC004A965D /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C539E1D7186AC004A965D /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		621C53561D707C1D004A965D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621C53341D707C1C004A965D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621C533B1D707C1C004A965D;
+			remoteInfo = Gatozarks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		621C533C1D707C1C004A965D /* Gatozarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gatozarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		621C53401D707C1C004A965D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		621C53421D707C1C004A965D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		621C53431D707C1C004A965D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		621C53491D707C1C004A965D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		621C534B1D707C1C004A965D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		621C534E1D707C1C004A965D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		621C53501D707C1D004A965D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621C53551D707C1D004A965D /* GatozarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatozarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		621C53591D707C1D004A965D /* GatozarksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GatozarksUITests.m; sourceTree = "<group>"; };
+		621C535B1D707C1D004A965D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621C53651D707D1E004A965D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		621C53661D707D1E004A965D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		621C53681D707D45004A965D /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		621C53691D707D45004A965D /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		621C536B1D707D59004A965D /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		621C536C1D707D59004A965D /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		621C536E1D707D67004A965D /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		621C536F1D707D67004A965D /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		621C53721D707D82004A965D /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		621C53731D707D82004A965D /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		621C53761D707F45004A965D /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
+		621C53771D707F45004A965D /* icon_calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_calculator.png; sourceTree = "<group>"; };
+		621C53781D707F45004A965D /* icon_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_calendar.png; sourceTree = "<group>"; };
+		621C53791D707F45004A965D /* icon_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_location.png; sourceTree = "<group>"; };
+		621C537A1D707F45004A965D /* icon_map.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_map.PNG; sourceTree = "<group>"; };
+		621C537B1D707F45004A965D /* icon_news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_news.png; sourceTree = "<group>"; };
+		621C537C1D707F45004A965D /* icon_phone.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_phone.PNG; sourceTree = "<group>"; };
+		621C537D1D707F45004A965D /* image_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_bg.png; sourceTree = "<group>"; };
+		621C537E1D707F45004A965D /* image_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_logo.png; sourceTree = "<group>"; };
+		621C537F1D707F45004A965D /* image_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_text.png; sourceTree = "<group>"; };
+		621C538B1D709EA6004A965D /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		621C538C1D709EA6004A965D /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		621C538F1D70D5C8004A965D /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		621C53901D70D5C8004A965D /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		621C53921D70E467004A965D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		621C53931D70E467004A965D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		621C53951D70E660004A965D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		621C53971D7176FF004A965D /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		621C53981D7176FF004A965D /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		621C539C1D7186A4004A965D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = config/PrefixHeader.pch; sourceTree = "<group>"; };
+		621C539D1D7186AC004A965D /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = appcontroller/AppController.h; sourceTree = "<group>"; };
+		621C539E1D7186AC004A965D /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = appcontroller/AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621C53391D707C1C004A965D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621C53961D70E660004A965D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621C53521D707C1D004A965D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		621C53331D707C1C004A965D = {
+			isa = PBXGroup;
+			children = (
+				621C53951D70E660004A965D /* MapKit.framework */,
+				621C533E1D707C1C004A965D /* Gatozarks */,
+				621C53581D707C1D004A965D /* GatozarksUITests */,
+				621C533D1D707C1C004A965D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		621C533D1D707C1C004A965D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621C533C1D707C1C004A965D /* Gatozarks.app */,
+				621C53551D707C1D004A965D /* GatozarksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		621C533E1D707C1C004A965D /* Gatozarks */ = {
+			isa = PBXGroup;
+			children = (
+				621C539B1D71863F004A965D /* Appcontroller */,
+				621C539A1D71862C004A965D /* Config */,
+				621C53421D707C1C004A965D /* AppDelegate.h */,
+				621C53431D707C1C004A965D /* AppDelegate.m */,
+				621C53481D707C1C004A965D /* Main.storyboard */,
+				621C53641D707D02004A965D /* Views */,
+				621C53751D707E8C004A965D /* Resources */,
+				621C534B1D707C1C004A965D /* Assets.xcassets */,
+				621C534D1D707C1C004A965D /* LaunchScreen.storyboard */,
+				621C53501D707C1D004A965D /* Info.plist */,
+				621C533F1D707C1C004A965D /* Supporting Files */,
+			);
+			path = Gatozarks;
+			sourceTree = "<group>";
+		};
+		621C533F1D707C1C004A965D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				621C53401D707C1C004A965D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		621C53581D707C1D004A965D /* GatozarksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				621C53591D707C1D004A965D /* GatozarksUITests.m */,
+				621C535B1D707C1D004A965D /* Info.plist */,
+			);
+			path = GatozarksUITests;
+			sourceTree = "<group>";
+		};
+		621C53641D707D02004A965D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				621C538A1D709E8B004A965D /* Cells */,
+				621C53651D707D1E004A965D /* MainViewController.h */,
+				621C53661D707D1E004A965D /* MainViewController.m */,
+				621C53681D707D45004A965D /* NewsViewController.h */,
+				621C53691D707D45004A965D /* NewsViewController.m */,
+				621C536B1D707D59004A965D /* ContactViewController.h */,
+				621C536C1D707D59004A965D /* ContactViewController.m */,
+				621C536E1D707D67004A965D /* CalendarViewController.h */,
+				621C536F1D707D67004A965D /* CalendarViewController.m */,
+				621C53721D707D82004A965D /* CalculatorViewController.h */,
+				621C53731D707D82004A965D /* CalculatorViewController.m */,
+				621C538F1D70D5C8004A965D /* ContactDetailViewController.h */,
+				621C53901D70D5C8004A965D /* ContactDetailViewController.m */,
+				621C53921D70E467004A965D /* MapViewController.h */,
+				621C53931D70E467004A965D /* MapViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		621C53751D707E8C004A965D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				621C53761D707F45004A965D /* icon_back.png */,
+				621C53771D707F45004A965D /* icon_calculator.png */,
+				621C53781D707F45004A965D /* icon_calendar.png */,
+				621C53791D707F45004A965D /* icon_location.png */,
+				621C537A1D707F45004A965D /* icon_map.PNG */,
+				621C537B1D707F45004A965D /* icon_news.png */,
+				621C537C1D707F45004A965D /* icon_phone.PNG */,
+				621C537D1D707F45004A965D /* image_bg.png */,
+				621C537E1D707F45004A965D /* image_logo.png */,
+				621C537F1D707F45004A965D /* image_text.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		621C538A1D709E8B004A965D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				621C538B1D709EA6004A965D /* ContactTableViewCell.h */,
+				621C538C1D709EA6004A965D /* ContactTableViewCell.m */,
+				621C53971D7176FF004A965D /* NewsTableViewCell.h */,
+				621C53981D7176FF004A965D /* NewsTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		621C539A1D71862C004A965D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				621C539C1D7186A4004A965D /* PrefixHeader.pch */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		621C539B1D71863F004A965D /* Appcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				621C539D1D7186AC004A965D /* AppController.h */,
+				621C539E1D7186AC004A965D /* AppController.m */,
+			);
+			name = Appcontroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621C533B1D707C1C004A965D /* Gatozarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621C535E1D707C1D004A965D /* Build configuration list for PBXNativeTarget "Gatozarks" */;
+			buildPhases = (
+				621C53381D707C1C004A965D /* Sources */,
+				621C53391D707C1C004A965D /* Frameworks */,
+				621C533A1D707C1C004A965D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gatozarks;
+			productName = Gatozarks;
+			productReference = 621C533C1D707C1C004A965D /* Gatozarks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		621C53541D707C1D004A965D /* GatozarksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621C53611D707C1D004A965D /* Build configuration list for PBXNativeTarget "GatozarksUITests" */;
+			buildPhases = (
+				621C53511D707C1D004A965D /* Sources */,
+				621C53521D707C1D004A965D /* Frameworks */,
+				621C53531D707C1D004A965D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621C53571D707C1D004A965D /* PBXTargetDependency */,
+			);
+			name = GatozarksUITests;
+			productName = GatozarksUITests;
+			productReference = 621C53551D707C1D004A965D /* GatozarksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		621C53341D707C1C004A965D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Risingdeveloper;
+				TargetAttributes = {
+					621C533B1D707C1C004A965D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					621C53541D707C1D004A965D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 621C533B1D707C1C004A965D;
+					};
+				};
+			};
+			buildConfigurationList = 621C53371D707C1C004A965D /* Build configuration list for PBXProject "Gatozarks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 621C53331D707C1C004A965D;
+			productRefGroup = 621C533D1D707C1C004A965D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621C533B1D707C1C004A965D /* Gatozarks */,
+				621C53541D707C1D004A965D /* GatozarksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621C533A1D707C1C004A965D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621C53831D707F45004A965D /* icon_location.png in Resources */,
+				621C53861D707F45004A965D /* icon_phone.PNG in Resources */,
+				621C53891D707F45004A965D /* image_text.png in Resources */,
+				621C53821D707F45004A965D /* icon_calendar.png in Resources */,
+				621C534F1D707C1C004A965D /* LaunchScreen.storyboard in Resources */,
+				621C53851D707F45004A965D /* icon_news.png in Resources */,
+				621C53871D707F45004A965D /* image_bg.png in Resources */,
+				621C53801D707F45004A965D /* icon_back.png in Resources */,
+				621C534C1D707C1C004A965D /* Assets.xcassets in Resources */,
+				621C53881D707F45004A965D /* image_logo.png in Resources */,
+				621C53841D707F45004A965D /* icon_map.PNG in Resources */,
+				621C53811D707F45004A965D /* icon_calculator.png in Resources */,
+				621C534A1D707C1C004A965D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621C53531D707C1D004A965D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621C53381D707C1C004A965D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621C538D1D709EA6004A965D /* ContactTableViewCell.m in Sources */,
+				621C536D1D707D59004A965D /* ContactViewController.m in Sources */,
+				621C53441D707C1C004A965D /* AppDelegate.m in Sources */,
+				621C53911D70D5C8004A965D /* ContactDetailViewController.m in Sources */,
+				621C536A1D707D45004A965D /* NewsViewController.m in Sources */,
+				621C53411D707C1C004A965D /* main.m in Sources */,
+				621C53671D707D1E004A965D /* MainViewController.m in Sources */,
+				621C539F1D7186AC004A965D /* AppController.m in Sources */,
+				621C53941D70E467004A965D /* MapViewController.m in Sources */,
+				621C53991D7176FF004A965D /* NewsTableViewCell.m in Sources */,
+				621C53741D707D82004A965D /* CalculatorViewController.m in Sources */,
+				621C53701D707D67004A965D /* CalendarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621C53511D707C1D004A965D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621C535A1D707C1D004A965D /* GatozarksUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		621C53571D707C1D004A965D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621C533B1D707C1C004A965D /* Gatozarks */;
+			targetProxy = 621C53561D707C1D004A965D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		621C53481D707C1C004A965D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621C53491D707C1C004A965D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		621C534D1D707C1C004A965D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621C534E1D707C1C004A965D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		621C535C1D707C1D004A965D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		621C535D1D707C1D004A965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621C535F1D707C1D004A965D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Gatozarks/Config/PrefixHeader.pch;
+				INFOPLIST_FILE = Gatozarks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.risingdeveloper.Gatozarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		621C53601D707C1D004A965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Gatozarks/Config/PrefixHeader.pch;
+				INFOPLIST_FILE = Gatozarks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.risingdeveloper.Gatozarks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		621C53621D707C1D004A965D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GatozarksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.risingdeveloper.GatozarksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gatozarks;
+			};
+			name = Debug;
+		};
+		621C53631D707C1D004A965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GatozarksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.risingdeveloper.GatozarksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gatozarks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621C53371D707C1C004A965D /* Build configuration list for PBXProject "Gatozarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621C535C1D707C1D004A965D /* Debug */,
+				621C535D1D707C1D004A965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621C535E1D707C1D004A965D /* Build configuration list for PBXNativeTarget "Gatozarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621C535F1D707C1D004A965D /* Debug */,
+				621C53601D707C1D004A965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621C53611D707C1D004A965D /* Build configuration list for PBXNativeTarget "GatozarksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621C53621D707C1D004A965D /* Debug */,
+				621C53631D707C1D004A965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 621C53341D707C1C004A965D /* Project object */;
+}
